@@ -149,7 +149,7 @@ main {
 }
 
 .footer-centrale {
-  background-image: url("/public/images/footer-bg.jpg");
+  background-image: url("/images/footer-bg.jpg");
   background-position: center;
   overflow: hidden;
   height: 390px;
@@ -176,6 +176,7 @@ main {
 .footer-centrale .container ul {
   list-style-type: none;
   margin-bottom: 20px;
+  padding: 0;
 }
 
 .footer-centrale .container a {
