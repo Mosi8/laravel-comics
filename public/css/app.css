@@ -1,0 +1,170 @@
+.logo-menu {
+  height: 100px;
+  max-width: 1000px;
+}
+
+.logo {
+  display: inline-block;
+  line-height: 100px;
+  height: 75%;
+}
+
+.logo img {
+  height: 100%;
+  vertical-align: middle;
+}
+
+nav {
+  float: right;
+  font-size: 12px;
+  line-height: 100px;
+  vertical-align: middle;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+nav ul li a {
+  display: inline-block;
+  color: #000;
+  margin: 0 15px;
+  text-decoration: none;
+  border-bottom: solid 4px #fff;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+  border-bottom: solid 4px #4981f5;
+}
+
+.jumbo {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.jumbo img {
+  width: 100%;
+}
+
+main {
+  background-color: #000;
+  color: #fff;
+}
+
+.container.container-main {
+  text-align: center;
+  position: relative;
+  max-width: 1000px;
+}
+
+.container.container-main h3 {
+  color: #fff;
+  background-color: #4981f5;
+  display: inline-block;
+  padding: 8px 20px;
+  position: absolute;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.container.container-main .main-fumetti {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px 0 30px 0;
+  margin: 0 10px;
+}
+
+.container.container-main .main-fumetti .singolo-fumetto {
+  width: 15%;
+  text-align: left;
+}
+
+.container.container-main .main-fumetti .singolo-fumetto .ritaglio {
+  height: 150px;
+  overflow: hidden;
+}
+
+.container.container-main .main-fumetti .singolo-fumetto .ritaglio img {
+  width: 100%;
+}
+
+.container.container-main .main-fumetti .singolo-fumetto p {
+  color: #fff;
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+.container.container-main button {
+  font-weight: bold;
+  color: #fff;
+  background-color: #4981f5;
+  padding: 10px 40px;
+  border: none;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.footer-finale {
+  background-color: #333333;
+  line-height: 100px;
+  height: 90px;
+}
+
+.footer-finale .container {
+  max-width: 1000px;
+}
+
+.footer-finale .sign {
+  line-height: 90px;
+  vertical-align: middle;
+  float: left;
+}
+
+.footer-finale .sign .bottone-sign {
+  color: #fff;
+  border: solid 2px #4981f5;
+  background-color: #333333;
+  font-size: 12px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.footer-finale .social {
+  height: 90px;
+  line-height: 90px;
+  vertical-align: middle;
+  float: right;
+}
+
+.footer-finale .social h4 {
+  display: inline-block;
+  color: #4981f5;
+  font-size: 15px;
+}
+
+.footer-finale .social ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.footer-finale .social ul li {
+  display: inline-block;
+}
+
+.footer-finale .social ul li img {
+  display: inline-block;
+  color: #000;
+  margin: 0 15px;
+  text-decoration: none;
+  height: 36px;
+  width: 36px;
+  line-height: 90px;
+  vertical-align: middle;
+}
+
